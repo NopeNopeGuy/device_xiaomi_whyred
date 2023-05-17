@@ -65,6 +65,10 @@ PRODUCT_PACKAGES += \
     libcamera_sdm660_shim \
     libmiwatermark_shim
 
+#Repainter
+PRODUCT_PACKAGES += \
+    RepainterServicePriv \
+
 # Thermal
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
