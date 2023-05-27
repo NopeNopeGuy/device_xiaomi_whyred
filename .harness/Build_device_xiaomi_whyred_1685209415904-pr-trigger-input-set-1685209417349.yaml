@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_device_xiaomi_whyred_1685209415904-pr-trigger-input-set
+  identifier: Build_device_xiaomi_whyred_1685209415904prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_device_xiaomi_whyred_1685209415904
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
