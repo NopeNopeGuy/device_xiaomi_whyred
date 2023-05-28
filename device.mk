@@ -64,6 +64,10 @@ PRODUCT_COPY_FILES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
+    
+#Camera
+PRODUCT_PACKAGES += \
+    camera.sdm660
 
 # Wifi
 PRODUCT_PACKAGES += \
