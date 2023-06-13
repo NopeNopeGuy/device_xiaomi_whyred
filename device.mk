@@ -6,6 +6,7 @@
 
 # Inherit from sdm660-common
 $(call inherit-product, device/xiaomi/sdm660-common/sdm660.mk)
+$(call inherit-product, vendor/xiaomi/dirac/dirac.mk)
 
 DEVICE_PATH := device/xiaomi/whyred
 
